@@ -1,0 +1,990 @@
+{
+  "meta": {
+    "company": "ST Light",
+    "generated_at": "2026-06-20T13:11:35+03:00",
+    "source_directory": "D:\\Data",
+    "source_files": [
+      "ITEMS 1.htm.html",
+      "PRICE LIST BY CATEGORY.htm.html",
+      "PRICE LIST.htm.html",
+      "SALES 1.htm.html",
+      "STOCK ITEM GROUPED BY CATEGORY.htm.html",
+      "STOCK ITEM WHOLE QUANTITY.htm.html",
+      "STOCK ITEMS.htm.html",
+      "STOCK PURCHASES FROM 2022.htm.html",
+      "VATABLE & NON VATABLE.htm.html"
+    ],
+    "report_count": 9,
+    "sales_period": {
+      "from": "2026-06-11",
+      "to": "2026-06-11"
+    },
+    "purchase_period": {
+      "from": "2022-08-23",
+      "to": "2026-06-17"
+    }
+  },
+  "kpis": {
+    "sku_count": 14740,
+    "stock_units": 1897409.5,
+    "stock_value": 1421855624.9,
+    "potential_retail_value": 2150279769.5,
+    "potential_gross_profit": 835925566.8,
+    "reorder_count": 4479,
+    "negative_stock_count": 370,
+    "zero_stock_count": 3344,
+    "purchase_spend": 1496964417.28,
+    "purchase_transactions": 32626,
+    "supplier_count": 1161,
+    "supplier_hhi": 1001.09,
+    "sales_snapshot": 2700300.0,
+    "sales_transactions": 611,
+    "average_positive_ticket": 4770.85,
+    "zero_value_sales": 45
+  },
+  "quality": {
+    "duplicate_rows_removed": 637,
+    "duplicates_by_source": {
+      "prices": 0,
+      "stock": 0,
+      "vat": 0,
+      "sales": 4,
+      "purchases": 633
+    },
+    "unclassified_skus": 0,
+    "missing_vat_skus": 0,
+    "invalid_price_count": 96,
+    "negative_stock_count": 370,
+    "coverage_score": 100.0
+  },
+  "categories": [
+    {
+      "category": "ELECTRICALS",
+      "sku_count": 11023,
+      "stock_value": 765546040.4,
+      "potential_retail_value": 1103335716.5,
+      "potential_gross_profit": 337789676.1,
+      "reorder_count": 3366,
+      "negative_count": 282
+    },
+    {
+      "category": "SOLAR",
+      "sku_count": 705,
+      "stock_value": 213149593.0,
+      "potential_retail_value": 369396220.0,
+      "potential_gross_profit": 156246627.0,
+      "reorder_count": 283,
+      "negative_count": 13
+    },
+    {
+      "category": "BULBS",
+      "sku_count": 1483,
+      "stock_value": 161758469.5,
+      "potential_retail_value": 271080418.0,
+      "potential_gross_profit": 109321948.5,
+      "reorder_count": 323,
+      "negative_count": 37
+    },
+    {
+      "category": "CABLES",
+      "sku_count": 522,
+      "stock_value": 97166397.5,
+      "potential_retail_value": 116784695.0,
+      "potential_gross_profit": 19618297.5,
+      "reorder_count": 175,
+      "negative_count": 19
+    },
+    {
+      "category": "SOLAR SECTION",
+      "sku_count": 48,
+      "stock_value": 78488765.0,
+      "potential_retail_value": 142371200.0,
+      "potential_gross_profit": 63882435.0,
+      "reorder_count": 20,
+      "negative_count": 1
+    },
+    {
+      "category": "FLOODLIGHTS",
+      "sku_count": 389,
+      "stock_value": 69168944.0,
+      "potential_retail_value": 99207910.0,
+      "potential_gross_profit": 30038966.0,
+      "reorder_count": 85,
+      "negative_count": 3
+    },
+    {
+      "category": "GARDENLIGHTS",
+      "sku_count": 55,
+      "stock_value": 17005742.8,
+      "potential_retail_value": 21578310.0,
+      "potential_gross_profit": 4572567.2,
+      "reorder_count": 11,
+      "negative_count": 2
+    },
+    {
+      "category": "SOCKETS/SWITCHES",
+      "sku_count": 321,
+      "stock_value": 8158986.0,
+      "potential_retail_value": 12630880.0,
+      "potential_gross_profit": 4471894.0,
+      "reorder_count": 146,
+      "negative_count": 7
+    },
+    {
+      "category": "RADIOS",
+      "sku_count": 103,
+      "stock_value": 7931118.0,
+      "potential_retail_value": 10232260.0,
+      "potential_gross_profit": 2301142.0,
+      "reorder_count": 28,
+      "negative_count": 3
+    },
+    {
+      "category": "PANELS",
+      "sku_count": 60,
+      "stock_value": 1100925.0,
+      "potential_retail_value": 1943510.0,
+      "potential_gross_profit": 842585.0,
+      "reorder_count": 26,
+      "negative_count": 3
+    },
+    {
+      "category": "INVERTERS",
+      "sku_count": 29,
+      "stock_value": 975500.0,
+      "potential_retail_value": 1714300.0,
+      "potential_gross_profit": 738800.0,
+      "reorder_count": 16,
+      "negative_count": 0
+    },
+    {
+      "category": "S0",
+      "sku_count": 1,
+      "stock_value": 1350.0,
+      "potential_retail_value": 3150.0,
+      "potential_gross_profit": 1800.0,
+      "reorder_count": 0,
+      "negative_count": 0
+    },
+    {
+      "category": "RECESSS",
+      "sku_count": 1,
+      "stock_value": 800.0,
+      "potential_retail_value": 1200.0,
+      "potential_gross_profit": 400.0,
+      "reorder_count": 0,
+      "negative_count": 0
+    }
+  ],
+  "suppliers": [
+    {
+      "supplier": "SHOP STORE",
+      "spend": 458737255.0,
+      "transactions": 263,
+      "average_order": 1744248.12
+    },
+    {
+      "supplier": "CASH PURCHASE",
+      "spend": 54239045.01,
+      "transactions": 8889,
+      "average_order": 6101.82
+    },
+    {
+      "supplier": "NANCY VELLMAX",
+      "spend": 36464670.0,
+      "transactions": 268,
+      "average_order": 136062.2
+    },
+    {
+      "supplier": "TRONIC KENYA LIMITED",
+      "spend": 34662296.43,
+      "transactions": 179,
+      "average_order": 193644.11
+    },
+    {
+      "supplier": "VELLMAX ELECTRICAL COMPANY",
+      "spend": 32298000.0,
+      "transactions": 212,
+      "average_order": 152349.06
+    },
+    {
+      "supplier": "OPTONICA ELECTRALS",
+      "spend": 31607655.0,
+      "transactions": 213,
+      "average_order": 148392.75
+    },
+    {
+      "supplier": "MODI LIGHTING COMPANY",
+      "spend": 28248106.0,
+      "transactions": 103,
+      "average_order": 274253.46
+    },
+    {
+      "supplier": "GLORIA NEELUX",
+      "spend": 27010065.0,
+      "transactions": 163,
+      "average_order": 165705.92
+    },
+    {
+      "supplier": "ALLTOP ELECTRONICS",
+      "spend": 21390087.0,
+      "transactions": 168,
+      "average_order": 127321.95
+    },
+    {
+      "supplier": "ORO INVESTMENT LIMITED",
+      "spend": 18794280.0,
+      "transactions": 49,
+      "average_order": 383556.73
+    },
+    {
+      "supplier": "NEELUX COMPANY LIMITED",
+      "spend": 17984400.0,
+      "transactions": 80,
+      "average_order": 224805.0
+    },
+    {
+      "supplier": "HTG",
+      "spend": 15437790.0,
+      "transactions": 20,
+      "average_order": 771889.5
+    },
+    {
+      "supplier": "SUPARIA COMPANY LIMITED",
+      "spend": 14438305.6,
+      "transactions": 27,
+      "average_order": 534752.06
+    },
+    {
+      "supplier": "COUSIN ENTERPRISE",
+      "spend": 13456600.0,
+      "transactions": 17,
+      "average_order": 791564.71
+    },
+    {
+      "supplier": "DAT SOLAR",
+      "spend": 12741440.0,
+      "transactions": 56,
+      "average_order": 227525.71
+    },
+    {
+      "supplier": "AFRILIGHT ELECTRICALS",
+      "spend": 11392065.0,
+      "transactions": 114,
+      "average_order": 99930.39
+    },
+    {
+      "supplier": "SOATIN VENTURES",
+      "spend": 11388210.02,
+      "transactions": 119,
+      "average_order": 95699.24
+    },
+    {
+      "supplier": "COUSIN ENTERPRISES",
+      "spend": 11380840.0,
+      "transactions": 177,
+      "average_order": 64298.53
+    },
+    {
+      "supplier": "MEDLOCK ELECTRICAL LIMITED",
+      "spend": 11188528.4,
+      "transactions": 89,
+      "average_order": 125713.8
+    },
+    {
+      "supplier": "SMART JOMES ENTERPRISE",
+      "spend": 10495360.0,
+      "transactions": 246,
+      "average_order": 42664.07
+    }
+  ],
+  "monthly_purchases": [
+    {
+      "month": "2022-08",
+      "amount": 4356949.0,
+      "transactions": 21
+    },
+    {
+      "month": "2022-09",
+      "amount": 2696592.02,
+      "transactions": 57
+    },
+    {
+      "month": "2022-10",
+      "amount": 8070345.46,
+      "transactions": 58
+    },
+    {
+      "month": "2022-11",
+      "amount": 11263342.01,
+      "transactions": 594
+    },
+    {
+      "month": "2022-12",
+      "amount": 445111347.43,
+      "transactions": 1056
+    },
+    {
+      "month": "2023-01",
+      "amount": 21440804.0,
+      "transactions": 226
+    },
+    {
+      "month": "2023-02",
+      "amount": 12270732.68,
+      "transactions": 692
+    },
+    {
+      "month": "2023-03",
+      "amount": 7148931.02,
+      "transactions": 996
+    },
+    {
+      "month": "2023-04",
+      "amount": 15664983.8,
+      "transactions": 1351
+    },
+    {
+      "month": "2023-05",
+      "amount": 13824407.77,
+      "transactions": 1436
+    },
+    {
+      "month": "2023-06",
+      "amount": 17278919.5,
+      "transactions": 1259
+    },
+    {
+      "month": "2023-07",
+      "amount": 10465657.0,
+      "transactions": 945
+    },
+    {
+      "month": "2023-08",
+      "amount": 5433164.0,
+      "transactions": 877
+    },
+    {
+      "month": "2023-09",
+      "amount": 4988824.0,
+      "transactions": 936
+    },
+    {
+      "month": "2023-10",
+      "amount": 5255757.0,
+      "transactions": 802
+    },
+    {
+      "month": "2023-11",
+      "amount": 12648239.6,
+      "transactions": 1125
+    },
+    {
+      "month": "2023-12",
+      "amount": 17444401.71,
+      "transactions": 1320
+    },
+    {
+      "month": "2024-01",
+      "amount": 21023227.7,
+      "transactions": 1391
+    },
+    {
+      "month": "2024-02",
+      "amount": 21107372.0,
+      "transactions": 1212
+    },
+    {
+      "month": "2024-03",
+      "amount": 35831523.64,
+      "transactions": 1224
+    },
+    {
+      "month": "2024-04",
+      "amount": 30865669.4,
+      "transactions": 1110
+    },
+    {
+      "month": "2024-05",
+      "amount": 11096297.0,
+      "transactions": 796
+    },
+    {
+      "month": "2024-06",
+      "amount": 9854836.94,
+      "transactions": 596
+    },
+    {
+      "month": "2024-07",
+      "amount": 8309290.9,
+      "transactions": 567
+    },
+    {
+      "month": "2024-08",
+      "amount": 26299187.0,
+      "transactions": 668
+    },
+    {
+      "month": "2024-09",
+      "amount": 19509658.96,
+      "transactions": 672
+    },
+    {
+      "month": "2024-10",
+      "amount": 4828478.84,
+      "transactions": 421
+    },
+    {
+      "month": "2024-11",
+      "amount": 4858678.55,
+      "transactions": 496
+    },
+    {
+      "month": "2024-12",
+      "amount": 23734508.55,
+      "transactions": 951
+    },
+    {
+      "month": "2025-01",
+      "amount": 27446292.0,
+      "transactions": 956
+    },
+    {
+      "month": "2025-02",
+      "amount": 21215564.0,
+      "transactions": 813
+    },
+    {
+      "month": "2025-03",
+      "amount": 35039619.08,
+      "transactions": 846
+    },
+    {
+      "month": "2025-04",
+      "amount": 25802554.0,
+      "transactions": 624
+    },
+    {
+      "month": "2025-05",
+      "amount": 34962656.0,
+      "transactions": 640
+    },
+    {
+      "month": "2025-06",
+      "amount": 40407378.0,
+      "transactions": 432
+    },
+    {
+      "month": "2025-07",
+      "amount": 36687177.4,
+      "transactions": 391
+    },
+    {
+      "month": "2025-08",
+      "amount": 27998673.0,
+      "transactions": 326
+    },
+    {
+      "month": "2025-09",
+      "amount": 32567168.0,
+      "transactions": 231
+    },
+    {
+      "month": "2025-10",
+      "amount": 41088171.0,
+      "transactions": 507
+    },
+    {
+      "month": "2025-11",
+      "amount": 36111858.84,
+      "transactions": 409
+    },
+    {
+      "month": "2025-12",
+      "amount": 49228022.0,
+      "transactions": 520
+    },
+    {
+      "month": "2026-01",
+      "amount": 44438392.0,
+      "transactions": 576
+    },
+    {
+      "month": "2026-02",
+      "amount": 42992196.84,
+      "transactions": 268
+    },
+    {
+      "month": "2026-03",
+      "amount": 41033384.84,
+      "transactions": 230
+    },
+    {
+      "month": "2026-04",
+      "amount": 48049480.0,
+      "transactions": 213
+    },
+    {
+      "month": "2026-05",
+      "amount": 39121940.0,
+      "transactions": 243
+    },
+    {
+      "month": "2026-06",
+      "amount": 40091762.8,
+      "transactions": 546
+    }
+  ],
+  "purchase_forecast": [
+    {
+      "month": "2026-07",
+      "amount": 45894173.73
+    },
+    {
+      "month": "2026-08",
+      "amount": 46808556.53
+    },
+    {
+      "month": "2026-09",
+      "amount": 47722939.32
+    }
+  ],
+  "payment_modes": [
+    {
+      "mode": "PAYBILL",
+      "amount": 1716148.0,
+      "transactions": 437
+    },
+    {
+      "mode": "EQUITY",
+      "amount": 597066.0,
+      "transactions": 13
+    },
+    {
+      "mode": "CASH",
+      "amount": 373986.0,
+      "transactions": 155
+    },
+    {
+      "mode": "RETURNS",
+      "amount": 13100.0,
+      "transactions": 5
+    },
+    {
+      "mode": "MPESA PHONE",
+      "amount": 0.0,
+      "transactions": 1
+    }
+  ],
+  "abc": [
+    {
+      "class": "A",
+      "items": 876
+    },
+    {
+      "class": "B",
+      "items": 2653
+    },
+    {
+      "class": "C",
+      "items": 7490
+    }
+  ],
+  "top_inventory": [
+    {
+      "code": "4081",
+      "name": "ONE TIME NEW ITEM",
+      "category": "ELECTRICALS",
+      "quantity": 116685.0,
+      "stock_value": 87513750.0,
+      "retail_price": 10.0,
+      "abc_class": "A"
+    },
+    {
+      "code": "6095",
+      "name": "200L LOW PRESSURIZED SUPREME",
+      "category": "SOLAR SECTION",
+      "quantity": 1110.0,
+      "stock_value": 72150000.0,
+      "retail_price": 120000.0,
+      "abc_class": "A"
+    },
+    {
+      "code": "3736",
+      "name": "1.5MM FLEX WEST CABLE",
+      "category": "CABLES",
+      "quantity": 4578.0,
+      "stock_value": 43491000.0,
+      "retail_price": 10500.0,
+      "abc_class": "A"
+    },
+    {
+      "code": "3820",
+      "name": "GREENWAY 600W SUBMERSIBLE PUMP BRUSHLESS",
+      "category": "SOLAR",
+      "quantity": 999.0,
+      "stock_value": 37962000.0,
+      "retail_price": 46000.0,
+      "abc_class": "A"
+    },
+    {
+      "code": "4319",
+      "name": "TLAC HAND DRYER",
+      "category": "SOLAR",
+      "quantity": 4996.0,
+      "stock_value": 27478000.0,
+      "retail_price": 8000.0,
+      "abc_class": "A"
+    },
+    {
+      "code": "3794",
+      "name": "NOTEBOOK SENSOR LIGHT",
+      "category": "SOLAR",
+      "quantity": 9982.0,
+      "stock_value": 14973000.0,
+      "retail_price": 2500.0,
+      "abc_class": "A"
+    },
+    {
+      "code": "1368",
+      "name": "SNAKELIGHT RGB 2 LINES 100MTRS",
+      "category": "BULBS",
+      "quantity": 992.0,
+      "stock_value": 11904000.0,
+      "retail_price": 15000.0,
+      "abc_class": "A"
+    },
+    {
+      "code": "4185",
+      "name": "ELECTRIC F. WIRE SILVER",
+      "category": "ELECTRICALS",
+      "quantity": 5240.0,
+      "stock_value": 9432000.0,
+      "retail_price": 2200.0,
+      "abc_class": "A"
+    },
+    {
+      "code": "4674",
+      "name": "60W ANGEL WINGS LAMP",
+      "category": "SOLAR",
+      "quantity": 4995.0,
+      "stock_value": 8991000.0,
+      "retail_price": 3500.0,
+      "abc_class": "A"
+    },
+    {
+      "code": "2940",
+      "name": "22INCH TV",
+      "category": "ELECTRICALS",
+      "quantity": 1000.0,
+      "stock_value": 8500000.0,
+      "retail_price": 9500.0,
+      "abc_class": "A"
+    },
+    {
+      "code": "2452",
+      "name": "300W SOLAR FLOODLIGHT CL 790S",
+      "category": "SOLAR",
+      "quantity": 907.0,
+      "stock_value": 7709500.0,
+      "retail_price": 11000.0,
+      "abc_class": "A"
+    },
+    {
+      "code": "3589",
+      "name": "KENNEDE RECHARGEABLE STANDFAN 5918",
+      "category": "ELECTRICALS",
+      "quantity": 1000.0,
+      "stock_value": 7700000.0,
+      "retail_price": 8700.0,
+      "abc_class": "A"
+    },
+    {
+      "code": "4188",
+      "name": "ELECTRIC F. SIREN KIT",
+      "category": "ELECTRICALS",
+      "quantity": 2541.0,
+      "stock_value": 7623000.0,
+      "retail_price": 3500.0,
+      "abc_class": "A"
+    },
+    {
+      "code": "1380",
+      "name": "400W SOLAR FLOODLIGHT CL 880",
+      "category": "SOLAR",
+      "quantity": 999.0,
+      "stock_value": 7492500.0,
+      "retail_price": 8500.0,
+      "abc_class": "A"
+    },
+    {
+      "code": "3590",
+      "name": "KENNEDE STANDFAN RECHARGEABLE 5966",
+      "category": "ELECTRICALS",
+      "quantity": 1000.0,
+      "stock_value": 7050000.0,
+      "retail_price": 7800.0,
+      "abc_class": "A"
+    }
+  ],
+  "reorder_watchlist": [
+    {
+      "code": "236558",
+      "name": "200AH 12V SLIM GREEN ENERGY BATTERY",
+      "category": "ELECTRICALS",
+      "quantity": 0.0,
+      "reorder_level": 236558.0,
+      "stock_value": 0.0
+    },
+    {
+      "code": "3163",
+      "name": "RUBBER 10CM",
+      "category": "ELECTRICALS",
+      "quantity": 1001.0,
+      "reorder_level": 10000.0,
+      "stock_value": 1801800.0
+    },
+    {
+      "code": "3390",
+      "name": "20A DOUBLE POLE PMX",
+      "category": "ELECTRICALS",
+      "quantity": 996.0,
+      "reorder_level": 4556.0,
+      "stock_value": 204180.0
+    },
+    {
+      "code": "3215",
+      "name": "STUDIO LIGHT",
+      "category": "ELECTRICALS",
+      "quantity": 0.0,
+      "reorder_level": 1000.0,
+      "stock_value": 0.0
+    },
+    {
+      "code": "3200",
+      "name": "COSLEC 13AMPS S/SINGLE",
+      "category": "ELECTRICALS",
+      "quantity": 20.0,
+      "reorder_level": 1000.0,
+      "stock_value": 1800.0
+    },
+    {
+      "code": "3115",
+      "name": "80A FUSE",
+      "category": "ELECTRICALS",
+      "quantity": 1470.0,
+      "reorder_level": 2000.0,
+      "stock_value": 58800.0
+    },
+    {
+      "code": "21175",
+      "name": "1.5MM TWIN WITH EARTH HTG METERS",
+      "category": "ELECTRICALS",
+      "quantity": -308.0,
+      "reorder_level": 0.0,
+      "stock_value": -24640.0
+    },
+    {
+      "code": "3172",
+      "name": "20MM OPEN SADDLES",
+      "category": "GARDENLIGHTS",
+      "quantity": -246.0,
+      "reorder_level": 10.0,
+      "stock_value": -295.2
+    },
+    {
+      "code": "3114",
+      "name": "NEON SNAKELIGHT WHITE METRES",
+      "category": "ELECTRICALS",
+      "quantity": 50.0,
+      "reorder_level": 300.0,
+      "stock_value": 6000.0
+    },
+    {
+      "code": "3121",
+      "name": "30W B22 INTELLIGENT DP",
+      "category": "BULBS",
+      "quantity": 0.0,
+      "reorder_level": 200.0,
+      "stock_value": 0.0
+    },
+    {
+      "code": "3221",
+      "name": "50M MAGNIFIED SNAKELIGHT 2-LINE PINK ROLL",
+      "category": "ELECTRICALS",
+      "quantity": 0.0,
+      "reorder_level": 200.0,
+      "stock_value": 0.0
+    },
+    {
+      "code": "3381",
+      "name": "T6 DATA+TV OUTLET BLACK LINEAR",
+      "category": "ELECTRICALS",
+      "quantity": 0.0,
+      "reorder_level": 200.0,
+      "stock_value": 0.0
+    },
+    {
+      "code": "3226",
+      "name": "SPEAKER",
+      "category": "RADIOS",
+      "quantity": 5.0,
+      "reorder_level": 200.0,
+      "stock_value": 5000.0
+    },
+    {
+      "code": "954",
+      "name": "10W 18V SOLAR PANEL SOLARMAX",
+      "category": "ELECTRICALS",
+      "quantity": -190.0,
+      "reorder_level": 0.0,
+      "stock_value": -95000.0
+    },
+    {
+      "code": "3223",
+      "name": "13A SOCKET POWERMAX",
+      "category": "ELECTRICALS",
+      "quantity": 21.0,
+      "reorder_level": 200.0,
+      "stock_value": 3675.0
+    }
+  ],
+  "anomalies": {
+    "large_purchases": [
+      {
+        "label": "SHOP STORE",
+        "value": 400000000.0,
+        "threshold": 34275.0
+      },
+      {
+        "label": "SHOP STORE",
+        "value": 5527050.0,
+        "threshold": 34275.0
+      },
+      {
+        "label": "SHOP STORE",
+        "value": 5200000.0,
+        "threshold": 34275.0
+      },
+      {
+        "label": "SHOP STORE",
+        "value": 4569870.0,
+        "threshold": 34275.0
+      },
+      {
+        "label": "SHOP STORE",
+        "value": 4500000.0,
+        "threshold": 34275.0
+      },
+      {
+        "label": "SHOP STORE",
+        "value": 4000000.0,
+        "threshold": 34275.0
+      },
+      {
+        "label": "SHOP STORE",
+        "value": 4000000.0,
+        "threshold": 34275.0
+      },
+      {
+        "label": "COUSIN ENTERPRISE",
+        "value": 3850000.0,
+        "threshold": 34275.0
+      }
+    ],
+    "high_value_inventory": [
+      {
+        "label": "ONE TIME NEW ITEM",
+        "value": 87513750.0,
+        "threshold": 78750.0
+      },
+      {
+        "label": "200L LOW PRESSURIZED SUPREME",
+        "value": 72150000.0,
+        "threshold": 78750.0
+      },
+      {
+        "label": "1.5MM FLEX WEST CABLE",
+        "value": 43491000.0,
+        "threshold": 78750.0
+      },
+      {
+        "label": "GREENWAY 600W SUBMERSIBLE PUMP BRUSHLESS",
+        "value": 37962000.0,
+        "threshold": 78750.0
+      },
+      {
+        "label": "TLAC HAND DRYER",
+        "value": 27478000.0,
+        "threshold": 78750.0
+      },
+      {
+        "label": "NOTEBOOK SENSOR LIGHT",
+        "value": 14973000.0,
+        "threshold": 78750.0
+      },
+      {
+        "label": "SNAKELIGHT RGB 2 LINES 100MTRS",
+        "value": 11904000.0,
+        "threshold": 78750.0
+      },
+      {
+        "label": "ELECTRIC F. WIRE SILVER",
+        "value": 9432000.0,
+        "threshold": 78750.0
+      }
+    ]
+  },
+  "executive_insights": [
+    {
+      "tone": "opportunity",
+      "title": "Capital concentration",
+      "text": "ELECTRICALS holds KSh 765,546,040, the largest category inventory position. Give it a weekly sell-through and aging review."
+    },
+    {
+      "tone": "risk",
+      "title": "Supplier dependency",
+      "text": "SHOP STORE represents 30.6% of recorded purchasing. Benchmark lead time, pricing and alternatives before the next large order."
+    },
+    {
+      "tone": "action",
+      "title": "Replenishment control",
+      "text": "4,479 SKUs are at or below their configured reorder level; 370 show negative stock and need immediate stock-count reconciliation."
+    },
+    {
+      "tone": "quality",
+      "title": "Decision boundary",
+      "text": "The sales export is a one-day payment summary, not item-level sales history. Revenue mix is reliable for that day; product demand, churn and sell-through require line-item sales exports."
+    }
+  ],
+  "methods": [
+    {
+      "name": "ETL & entity resolution",
+      "detail": "Normalizes Windows-1252 HTML, numeric/currency fields, dates and product names; joins report domains on product code."
+    },
+    {
+      "name": "Descriptive KPI mining",
+      "detail": "Profiles inventory capital, pricing headroom, purchasing, payment mix and data quality."
+    },
+    {
+      "name": "ABC / Pareto segmentation",
+      "detail": "Classifies SKUs by cumulative inventory-value contribution (80/15/5 control bands)."
+    },
+    {
+      "name": "Concentration analysis",
+      "detail": "Calculates supplier spend share and the Herfindahl-Hirschman Index (HHI)."
+    },
+    {
+      "name": "Anomaly detection",
+      "detail": "Uses the interquartile-range rule to surface unusually large purchases and inventory positions."
+    },
+    {
+      "name": "Time-series trend",
+      "detail": "Aggregates purchasing monthly and produces a clearly labelled three-month linear baseline forecast."
+    },
+    {
+      "name": "Rule-based risk mining",
+      "detail": "Flags reorder breaches, zero/negative stock, price inversions and missing master-data coverage."
+    }
+  ]
+}

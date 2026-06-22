@@ -16,15 +16,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/insights/page.js"
     ],
-    "/products/page": [
+    "/warehouse/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/products/page.js"
-    ],
-    "/solutions/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/solutions/page.js"
+      "static/css/app/warehouse/page.css",
+      "static/chunks/app/warehouse/page.js"
     ]
   }
 }

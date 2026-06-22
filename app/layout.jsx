@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "ST Light | Smart Solar Technology",
-  description: "Premium corporate prototype for ST Light, Kenya's solar and technology solutions company."
+  title: "ST Light | Smart Solar Technology & Intelligence",
+  description: "ST Light's solar technology website and private business intelligence warehouse."
 };
 
 export default function RootLayout({ children }) {
